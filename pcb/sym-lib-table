@@ -1,0 +1,12 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "micromouse-symbols") (type "KiCad") (uri "${KIPRJMOD}/libraries/micromouse-symbols.kicad_sym") (options "") (descr "Original Micromouse symbol library"))
+	(lib (name "Micromouse_pcb") (type "KiCad") (uri "${KIPRJMOD}/libraries/Micromouse_pcb.kicad_sym") (options "") (descr "Original Micromouse PCB symbol library"))
+	(lib (name "Ratatouii") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/Ratatouii.kicad_sym") (options "") (descr "Non-destructive organized symbol copy"))
+	(lib (name "DEV-16771") (type "KiCad") (uri "${KIPRJMOD}/libraries/DEV-16771/DEV-16771.kicad_sym") (options "") (descr "DEV-16771 / Teensy 4.1"))
+	(lib (name "LSM6DSV16XTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/LSM6DSV16XTR/LSM6DSV16XTR.kicad_sym") (options "") (descr "LSM6DSV16XTR"))
+	(lib (name "PV36W203C01B00") (type "KiCad") (uri "${KIPRJMOD}/libraries/micromouse.pretty/PV36W203C01B00.kicad_sym") (options "") (descr "PV36W203C01B00"))
+	(lib (name "SFH_4545") (type "KiCad") (uri "${KIPRJMOD}/libraries/SFH_4545/SFH_4545.kicad_sym") (options "") (descr "SFH 4545"))
+	(lib (name "TEENSY_4.0") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEENSY_4.0/TEENSY_4.0.kicad_sym") (options "") (descr "Teensy 4.0"))
+	(lib (name "TEFT4300") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEFT4300/TEFT4300.kicad_sym") (options "") (descr "TEFT4300"))
+)

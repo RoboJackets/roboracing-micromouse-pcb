@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "micromouse") (type "KiCad") (uri "${KIPRJMOD}/libraries/micromouse.pretty") (options "") (descr "Original Micromouse footprints"))
+	(lib (name "DEV-16771") (type "KiCad") (uri "${KIPRJMOD}/libraries/DEV-16771") (options "") (descr "DEV-16771 / Teensy 4.1 footprint"))
+	(lib (name "LSM6DSV16XTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/LSM6DSV16XTR") (options "") (descr "LSM6DSV16XTR footprint"))
+	(lib (name "PV36W203C01B00") (type "KiCad") (uri "${KIPRJMOD}/libraries/micromouse.pretty") (options "") (descr "PV36W203C01B00 footprint alias"))
+	(lib (name "SFH_4545") (type "KiCad") (uri "${KIPRJMOD}/libraries/SFH_4545") (options "") (descr "SFH 4545 footprint"))
+	(lib (name "TEENSY_4.0") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEENSY_4.0") (options "") (descr "Teensy 4.0 footprints"))
+	(lib (name "TEFT4300") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEFT4300") (options "") (descr "TEFT4300 footprint"))
+)

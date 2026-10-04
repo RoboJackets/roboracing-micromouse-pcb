@@ -1,0 +1,61 @@
+# KiCad backup files
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Per-user KiCad workspace state
+*.kicad_prl
+
+# KiCad autosave files
+_autosave-*
+*.autosave
+
+# KiCad lock files
+~*.lck
+*.lck
+
+# Local editor history
+.history/
+
+# KiCad rescue files
+*-rescue.lib
+*-rescue.dcm
+*-rescue.kicad_sym
+
+# Temporary files
+*.tmp
+*.temp
+
+# Gerbers / manufacturing outputs
+*.gbr
+*.ger
+*.drl
+*.pos
+*.rpt
+
+# Generated export files
+*.step
+*.stp
+*.wrl
+*.svg
+*.pdf
+
+# Project-managed 3D models are source assets, not generated exports
+!pcb/libraries/3dmodels/
+!pcb/libraries/3dmodels/**/*.step
+!pcb/libraries/3dmodels/**/*.stp
+!pcb/libraries/3dmodels/**/*.wrl
+
+# BOM / fabrication outputs
+*.csv
+*.tsv
+*.xml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/

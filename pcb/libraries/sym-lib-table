@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "micromouse-symbols") (type "KiCad") (uri "${KIPRJMOD}/libraries/micromouse-symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "LSM6DSV16XTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/LSM6DSV16XTR/LSM6DSV16XTR.kicad_sym") (options "") (descr ""))
+)
