@@ -674,7 +674,7 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "A1-2,D1-9,#PWR1-66,Q1-17,#FLG1,7.4_LiPo1,J1-3,L1,H1-6,R1-31,J2_MotorEncoder1,TP1-6,U1-3,C1-9,SW1-5,J1_MotorEncoder1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
