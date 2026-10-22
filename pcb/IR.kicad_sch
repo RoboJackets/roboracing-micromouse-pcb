@@ -1577,6 +1577,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1793,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 49.53) (xy 86.36 48.26)
+			(xy 86.36 46.99) (xy 86.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2139,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "40"
+		(property "Value" "36"
 			(at 88.9 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,96 +2530,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 86.36 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bc3e885-a28a-461a-82a3-966d31cf1612")
-		(property "Reference" "#PWR052"
-			(at 86.36 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 86.36 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77cde36f-9db4-4d8c-90de-de9bc4122774")
-		)
-		(instances
-			(project "micromouse-pcb"
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "#PWR055")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "#PWR063")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 86.36 0)
 		(unit 1)
@@ -2747,6 +2796,96 @@
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.36 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "922593e2-724a-4a72-bc81-7ee61453c2a9")
+		(property "Reference" "#PWR02"
+			(at 86.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 86.36 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d95e6b4-1a10-4173-9e8b-7c4ba8957d9a")
+		)
+		(instances
+			(project "micromouse-pcb"
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
