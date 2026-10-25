@@ -1124,8 +1124,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BS170"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1144,7 +1145,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BS170"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1155,7 +1156,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1168,7 +1169,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1180,7 +1181,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1202,7 +1203,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1213,7 +1214,7 @@
 					)
 				)
 			)
-			(symbol "BS170_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1357,7 +1358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1380,11 +1381,11 @@
 					)
 				)
 			)
-			(symbol "BS170_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1399,10 +1400,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1418,9 +1419,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1865,7 +1866,7 @@
 		(uuid "b16f7791-e9b2-4917-9619-44f012acc493")
 	)
 	(junction
-		(at 109.855 72.39)
+		(at 105.41 71.755)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3110129b-b231-4b51-abdb-7ac3b9c556df")
@@ -1892,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 83.185) (xy 109.855 86.995)
+			(xy 105.41 82.55) (xy 105.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 57.785) (xy 109.855 60.325)
+			(xy 105.41 57.15) (xy 105.41 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 109.855 72.39)
+			(xy 108.585 71.755) (xy 105.41 71.755)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 70.485) (xy 109.855 75.565)
+			(xy 105.41 69.85) (xy 105.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1970,33 +1971,9 @@
 		)
 		(uuid "d7cffef7-0a32-460b-814a-8fe084e50d1a")
 	)
-	(global_label "Emitter 1"
-		(shape input)
-		(at 11.4752 1.3498 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10baec94-a198-4c0c-88d5-314627a9b859")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -0.4604 1.3498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(hierarchical_label "Receiver"
 		(shape input)
-		(at 113.03 72.39 0)
+		(at 108.585 71.755 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2015,106 +1992,6 @@
 			(justify right)
 		)
 		(uuid "5f423c18-7cc1-4784-9161-060b484920cd")
-	)
-	(symbol
-		(lib_id "Transistor_FET:BS170")
-		(at 83.82 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "020c8e0b-5a1c-4b53-a9ba-1cffb756d1ed")
-		(property "Reference" "Q10"
-			(at 90.17 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS170"
-			(at 90.17 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 88.9 80.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
-			(at 88.9 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
-			(at 83.82 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23afa6c4-ba7b-4720-ab80-95c97c0fd3be")
-		)
-		(pin "2"
-			(uuid "8a8005ca-d619-495b-b06d-8791e00f03d2")
-		)
-		(pin "3"
-			(uuid "3a99bff5-ec7c-4119-a6e9-7fdef051980e")
-		)
-		(instances
-			(project "micromouse-pcb"
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "Q12")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "Q16")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2621,7 +2498,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 109.855 57.785 0)
+		(at 105.41 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2632,7 +2509,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f268f91-ee3d-47b1-9187-91ea27fc9ebb")
 		(property "Reference" "#PWR053"
-			(at 109.855 61.595 0)
+			(at 105.41 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2643,7 +2520,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 111.76 56.5149 0)
+			(at 107.315 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2654,7 +2531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.855 57.785 0)
+			(at 105.41 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,7 +2542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.855 57.785 0)
+			(at 105.41 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.855 57.785 0)
+			(at 105.41 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +2589,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 109.855 79.375 0)
+		(at 105.41 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2722,7 +2599,7 @@
 		(dnp no)
 		(uuid "53216b76-784f-45e9-9c85-88f50b33a2f1")
 		(property "Reference" "R22"
-			(at 105.918 77.978 0)
+			(at 101.473 77.343 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2732,7 +2609,7 @@
 			)
 		)
 		(property "Value" "800"
-			(at 105.664 80.264 0)
+			(at 101.219 79.629 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2742,7 +2619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 110.871 79.629 90)
+			(at 106.426 78.994 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +2630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.855 79.375 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2641,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 109.855 79.375 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2770,7 @@
 	)
 	(symbol
 		(lib_id "TEFT4300:TEFT4300")
-		(at 107.315 65.405 0)
+		(at 102.87 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2903,7 +2780,7 @@
 		(dnp no)
 		(uuid "c101be78-f592-48f5-be3a-baa2b4d58dc7")
 		(property "Reference" "Q11"
-			(at 114.046 65.024 0)
+			(at 109.601 64.389 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2913,7 +2790,7 @@
 			)
 		)
 		(property "Value" "TEFT4300"
-			(at 117.094 67.31 0)
+			(at 112.649 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2923,7 +2800,7 @@
 			)
 		)
 		(property "Footprint" "Ratatouii:XDCR_TEFT4300"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2935,7 +2812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2946,7 +2823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2957,7 +2834,7 @@
 			)
 		)
 		(property "MF" "Vishay Semiconductor"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +2846,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +2858,7 @@
 			)
 		)
 		(property "PACKAGE" "Radial Vishay"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +2870,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3005,7 +2882,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,7 +2894,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=eda"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,7 +2906,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEFT4300/Vishay/view-part/?ref=snap"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +2918,7 @@
 			)
 		)
 		(property "MP" "TEFT4300"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3053,7 +2930,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +2942,7 @@
 			)
 		)
 		(property "Description_1" "Phototransistors 925nm Top View Radial, 3mm Dia (T-1)"
-			(at 107.315 65.405 0)
+			(at 102.87 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3105,7 +2982,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.855 86.995 0)
+		(at 105.41 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3115,7 +2992,7 @@
 		(dnp no)
 		(uuid "f135654c-2664-4a9a-88a8-c07db748c18f")
 		(property "Reference" "#PWR054"
-			(at 109.855 93.345 0)
+			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,7 +3003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 90.678 0)
+			(at 107.315 90.043 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3137,7 +3014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.855 86.995 0)
+			(at 105.41 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.855 86.995 0)
+			(at 105.41 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +3036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.855 86.995 0)
+			(at 105.41 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,6 +3065,106 @@
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 83.82 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4988ff5-881a-44f9-99d9-1efb9cb6d248")
+		(property "Reference" "Q2"
+			(at 90.17 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 90.17 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 88.9 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 83.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54738635-1e1b-4730-b774-e6b8559dd41f")
+		)
+		(pin "2"
+			(uuid "ebd55922-e80f-4239-921d-83112777f91e")
+		)
+		(pin "3"
+			(uuid "a7f23df9-c7bd-48f5-a401-85be027470ff")
+		)
+		(instances
+			(project "micromouse-pcb"
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
