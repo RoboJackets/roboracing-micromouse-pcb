@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V2"
+      "sch_revision": "V0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -674,29 +674,13 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "H7,#FLG2,R1,R12-13,SW6,Q2-5,C8-10,D2,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,TP6,U4",
+    "used_designators": "H7,#FLG2,Q2-5,C8-10,D2,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,R1,R12-13,SW6,TP6,U4",
     "variants": []
   },
   "sheets": [
     [
       "6bab3514-b9e6-4652-bd2e-edc57bdbde3d",
       "micromouse-pcb"
-    ],
-    [
-      "7f4b8bd4-4b33-4dde-a793-226b8e2de73f",
-      "IR1"
-    ],
-    [
-      "1ceefd87-148b-487c-9cc8-0976f70f8c92",
-      "IR2"
-    ],
-    [
-      "9892aae5-d20a-4a72-957e-b0df2200cbe7",
-      "IR3"
-    ],
-    [
-      "5dec74b7-7e95-4967-a373-cc0339326363",
-      "IR4"
     ]
   ],
   "text_variables": {},
