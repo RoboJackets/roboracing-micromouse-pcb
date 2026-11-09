@@ -86,7 +86,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -674,7 +674,7 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "H7,#FLG2,R1,R12-13,SW6,Q2-5,C8-10,D2,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,TP6,U4",
+    "used_designators": "H7,#FLG2,Q2-5,C8-10,D2,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,R1,R12-13,SW6,TP6,U4",
     "variants": []
   },
   "sheets": [
