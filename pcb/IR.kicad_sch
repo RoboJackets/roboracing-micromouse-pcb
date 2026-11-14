@@ -1843,6 +1843,16 @@
 		)
 		(uuid "7b8d6fa7-497a-4654-bb9d-3e35fdf64684")
 	)
+	(text "(Current can initially rush into the mosfet gate capacitor very quickly)"
+		(exclude_from_sim no)
+		(at 92.202 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "888ee802-6009-4ad3-9fac-8ff14212618d")
+	)
 	(text "R11: Gate turn-on resistor"
 		(exclude_from_sim no)
 		(at 55.245 68.453 0)
@@ -2005,7 +2015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06806d1d-b339-4ec8-b801-452b8790783d")
-		(property "Reference" "R21"
+		(property "Reference" "R12"
 			(at 88.9 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2069,19 +2079,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "R24")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
 					(reference "R21")
 					(unit 1)
 				)
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
+					(reference "R12")
+					(unit 1)
+				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "R27")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d1a82b-6453-4791-96da-683f40db3c9f")
-		(property "Reference" "R20"
+		(property "Reference" "R13"
 			(at 73.66 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,19 +2171,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "R29")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "R20")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2191,7 +2201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36bdeb8d-7317-4900-a192-22e6665456a7")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 91.44 54.6486 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2388,19 +2398,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cde823c-1606-44bd-bb73-617b7585d829")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR046"
 			(at 86.36 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2478,19 +2488,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "#PWR056")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "#PWR064")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "#PWR051")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "#PWR060")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f268f91-ee3d-47b1-9187-91ea27fc9ebb")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR045"
 			(at 105.41 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2569,19 +2579,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "#PWR057")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "#PWR065")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "#PWR053")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "#PWR061")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2598,7 +2608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53216b76-784f-45e9-9c85-88f50b33a2f1")
-		(property "Reference" "R22"
+		(property "Reference" "R14"
 			(at 101.473 77.343 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,19 +2670,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "R25")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "R31")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "R22")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "R28")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55476f44-e39e-4f54-b936-d1242b48b34e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR044"
 			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2750,19 +2760,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "#PWR06")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "#PWR09")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "#PWR02")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "#PWR07")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2779,7 +2789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c101be78-f592-48f5-be3a-baa2b4d58dc7")
-		(property "Reference" "Q11"
+		(property "Reference" "Q3"
 			(at 109.601 64.389 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2962,19 +2972,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "Q13")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "Q17")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "Q11")
+					(reference "Q3")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "Q15")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2991,7 +3001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f135654c-2664-4a9a-88a8-c07db748c18f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR047"
 			(at 105.41 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3052,19 +3062,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "#PWR058")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "#PWR066")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "#PWR054")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "#PWR062")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4988ff5-881a-44f9-99d9-1efb9cb6d248")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 90.17 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,19 +3162,19 @@
 		(instances
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/1ceefd87-148b-487c-9cc8-0976f70f8c92"
-					(reference "Q3")
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/5dec74b7-7e95-4967-a373-cc0339326363"
-					(reference "Q5")
+					(reference "Q10")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/7f4b8bd4-4b33-4dde-a793-226b8e2de73f"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d/9892aae5-d20a-4a72-957e-b0df2200cbe7"
-					(reference "Q4")
+					(reference "Q8")
 					(unit 1)
 				)
 			)

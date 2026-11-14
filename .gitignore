@@ -47,6 +47,13 @@ _autosave-*
 !pcb/libraries/3dmodels/**/*.stp
 !pcb/libraries/3dmodels/**/*.wrl
 
+# Vendor component bundles under pcb/libraries also contain source 3D models
+!pcb/libraries/**/*.step
+!pcb/libraries/**/*.stp
+!pcb/libraries/**/*.STEP
+!pcb/libraries/**/*.STP
+!pcb/libraries/**/*.wrl
+
 # BOM / fabrication outputs
 *.csv
 *.tsv

@@ -9,4 +9,5 @@
 	(lib (name "SFH_4545") (type "KiCad") (uri "${KIPRJMOD}/libraries/SFH_4545/SFH_4545.kicad_sym") (options "") (descr "SFH 4545"))
 	(lib (name "TEENSY_4.0") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEENSY_4.0/TEENSY_4.0.kicad_sym") (options "") (descr "Teensy 4.0"))
 	(lib (name "TEFT4300") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEFT4300/TEFT4300.kicad_sym") (options "") (descr "TEFT4300"))
+	(lib (name "CMT-4023S-SMT-TR") (type "KiCad") (uri "${KIPRJMOD}/libraries/CMT-4023S-SMT-TR/CMT-4023S-SMT-TR.kicad_sym") (options "") (descr ""))
 )

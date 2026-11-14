@@ -1,5 +1,6 @@
 (fp_lib_table
 	(version 7)
+	(lib (name "CMT-4023S-SMT-TR") (type "KiCad") (uri "${KIPRJMOD}/libraries/CMT-4023S-SMT-TR") (options "") (descr "Same Sky CMT-4023S-SMT-TR buzzer footprint"))
 	(lib (name "micromouse") (type "KiCad") (uri "${KIPRJMOD}/libraries/micromouse.pretty") (options "") (descr "Original Micromouse footprints"))
 	(lib (name "Ratatouii") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/Ratatouii.pretty") (options "") (descr "Non-destructive organized footprint copy"))
 	(lib (name "DEV-16771") (type "KiCad") (uri "${KIPRJMOD}/libraries/DEV-16771") (options "") (descr "DEV-16771 / Teensy 4.1 footprint"))
