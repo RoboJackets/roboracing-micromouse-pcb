@@ -88,8 +88,8 @@
     ) (layer B.CrtYd) (width 0.01)
   )
   (model "${KIPRJMOD}/libraries/3dmodels/Ratatouii.3dshapes/TEENSY_4.0.step"
-    (offset (xyz 0 0 0))
+    (offset (xyz 7.62 16.51 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 180))
   )
 )

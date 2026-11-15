@@ -6035,8 +6035,8 @@
 		(uuid "24b46361-7dce-49fc-8592-55ee64d7e41a")
 	)
 	(no_connect
-		(at 96.52 254)
-		(uuid "c22ad909-d0ab-4881-840d-1205d63bc0f6")
+		(at 95.25 254)
+		(uuid "d08c035c-794c-4c41-a116-a09c465445b2")
 	)
 	(no_connect
 		(at 78.74 87.63)
@@ -6582,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 254) (xy 81.28 254)
+			(xy 60.96 254) (xy 64.77 254)
 		)
 		(stroke
 			(width 0)
@@ -6922,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 254) (xy 62.23 254)
+			(xy 40.64 254) (xy 45.72 254)
 		)
 		(stroke
 			(width 0)
@@ -8039,6 +8039,30 @@
 			)
 		)
 	)
+	(global_label "Buzzer"
+		(shape input)
+		(at 193.04 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e692976-6712-4ebc-a0bd-ae8e9bc5c49e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.3752 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 134.62 62.23 180)
@@ -8161,7 +8185,7 @@
 	)
 	(global_label "WS2812"
 		(shape input)
-		(at 41.91 254 180)
+		(at 25.4 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8171,7 +8195,7 @@
 		)
 		(uuid "89e3f9e2-957f-4fef-bc5d-00f2dd8d2815")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4259 254 0)
+			(at 14.9159 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8348,6 +8372,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "WS2812"
+		(shape input)
+		(at 193.04 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0237118-96f1-4088-b7d9-f017fcdda948")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.5241 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9485,7 +9533,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 246.38 0)
+		(at 72.39 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9495,7 +9543,7 @@
 		(dnp no)
 		(uuid "1a11c4ad-f749-41d7-98c3-3b2bdfb66dbc")
 		(property "Reference" "#PWR033"
-			(at 88.9 250.19 0)
+			(at 72.39 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9554,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 242.57 0)
+			(at 72.39 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9516,7 +9564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 246.38 0)
+			(at 72.39 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9527,7 +9575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 246.38 0)
+			(at 72.39 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 246.38 0)
+			(at 72.39 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9845,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 246.38 0)
+		(at 53.34 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9807,7 +9855,7 @@
 		(dnp no)
 		(uuid "207343ab-e6ee-43bd-b009-b00d561bbf31")
 		(property "Reference" "#PWR032"
-			(at 69.85 250.19 0)
+			(at 53.34 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +9866,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 242.57 0)
+			(at 53.34 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9828,7 +9876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 246.38 0)
+			(at 53.34 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 246.38 0)
+			(at 53.34 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,7 +9898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 246.38 0)
+			(at 53.34 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11761,6 +11809,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 87.63 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e7cea1e-1a2e-4b63-b636-bd69ce84377a")
+		(property "Reference" "#PWR063"
+			(at 87.63 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71a84ec8-a1f2-4ec0-b586-f3620b93621f")
+		)
+		(instances
+			(project "micromouse-pcb"
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 293.37 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -12084,7 +12210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 261.62 0)
+		(at 33.02 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12095,7 +12221,7 @@
 		(fields_autoplaced yes)
 		(uuid "651c7509-0cdc-4491-9858-401dc4984ba9")
 		(property "Reference" "#PWR035"
-			(at 49.53 267.97 0)
+			(at 33.02 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12106,7 +12232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 266.7 0)
+			(at 33.02 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12116,7 +12242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 261.62 0)
+			(at 33.02 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12127,7 +12253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 261.62 0)
+			(at 33.02 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12138,7 +12264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 261.62 0)
+			(at 33.02 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12479,7 +12605,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 69.85 254 0)
+		(at 53.34 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12490,7 +12616,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b405f30-bd88-4675-9255-932028652366")
 		(property "Reference" "D3"
-			(at 81.28 247.5798 0)
+			(at 64.77 247.5798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12500,7 +12626,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 81.28 250.1198 0)
+			(at 64.77 250.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12510,7 +12636,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
-			(at 71.12 261.62 0)
+			(at 54.61 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12522,7 +12648,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 72.39 263.525 0)
+			(at 55.88 263.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12534,7 +12660,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 69.85 254 0)
+			(at 53.34 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +12769,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 49.53 254 0)
+		(at 33.02 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12651,10 +12777,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7367d39c-aaf0-4cba-8bc4-5dc9957d665c")
 		(property "Reference" "D2"
-			(at 60.96 247.5798 0)
+			(at 44.45 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12664,7 +12789,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 60.96 250.1198 0)
+			(at 44.45 250.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12674,7 +12799,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
-			(at 50.8 261.62 0)
+			(at 34.29 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +12811,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 52.07 263.525 0)
+			(at 35.56 263.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,7 +12823,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 49.53 254 0)
+			(at 33.02 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13527,7 +13652,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 246.38 0)
+		(at 33.02 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13537,7 +13662,7 @@
 		(dnp no)
 		(uuid "892f5d2c-979d-4cf5-b2c7-6edc13a0a200")
 		(property "Reference" "#PWR031"
-			(at 49.53 250.19 0)
+			(at 33.02 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13548,7 +13673,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 242.57 0)
+			(at 33.02 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13558,7 +13683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 246.38 0)
+			(at 33.02 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13569,7 +13694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 246.38 0)
+			(at 33.02 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13580,7 +13705,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 246.38 0)
+			(at 33.02 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16355,7 +16480,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 261.62 0)
+		(at 72.39 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16366,7 +16491,7 @@
 		(fields_autoplaced yes)
 		(uuid "df2db522-05c0-48f4-9eed-f3c016ac886b")
 		(property "Reference" "#PWR037"
-			(at 88.9 267.97 0)
+			(at 72.39 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16377,7 +16502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 266.7 0)
+			(at 72.39 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16387,7 +16512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 261.62 0)
+			(at 72.39 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16398,7 +16523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 261.62 0)
+			(at 72.39 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16409,7 +16534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 261.62 0)
+			(at 72.39 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16681,7 +16806,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 88.9 254 0)
+		(at 72.39 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16692,7 +16817,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb5c9fcd-8ee7-4eee-9c22-43750644fd48")
 		(property "Reference" "D4"
-			(at 100.33 247.5798 0)
+			(at 83.82 247.5798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16702,7 +16827,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 100.33 250.1198 0)
+			(at 83.82 250.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16712,7 +16837,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
-			(at 90.17 261.62 0)
+			(at 73.66 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16724,7 +16849,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 91.44 263.525 0)
+			(at 74.93 263.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16736,7 +16861,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 88.9 254 0)
+			(at 72.39 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16872,7 +16997,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 261.62 0)
+		(at 53.34 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16883,7 +17008,7 @@
 		(fields_autoplaced yes)
 		(uuid "f10dc80c-eb64-4213-aad0-4900a812c10c")
 		(property "Reference" "#PWR036"
-			(at 69.85 267.97 0)
+			(at 53.34 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16894,7 +17019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 266.7 0)
+			(at 53.34 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16904,7 +17029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 261.62 0)
+			(at 53.34 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16915,7 +17040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 261.62 0)
+			(at 53.34 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16926,7 +17051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 261.62 0)
+			(at 53.34 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17021,6 +17146,171 @@
 			(project "micromouse-pcb"
 				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 87.63 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8c5e778-2747-4884-8893-1c9e5b0fb990")
+		(property "Reference" "D11"
+			(at 99.06 247.5798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 99.06 250.1198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-Mini_PLCC4_3.5x3.5mm"
+			(at 88.9 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 90.17 263.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 87.63 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "c8d766ec-956b-4767-8d7e-347040888427")
+		)
+		(pin "1"
+			(uuid "5dd765a6-a78d-43b4-8158-17e9374ffe45")
+		)
+		(pin "2"
+			(uuid "77cea152-38cc-4128-81f2-82202a780e9b")
+		)
+		(pin "3"
+			(uuid "b63e5013-40d8-4571-99ce-5fbb30dca210")
+		)
+		(instances
+			(project "micromouse-pcb"
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd1b5870-e3fe-434f-b680-7300c6639638")
+		(property "Reference" "#PWR061"
+			(at 87.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.63 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74711f09-abbb-496a-97db-2f30c6cdfb16")
+		)
+		(instances
+			(project "micromouse-pcb"
+				(path "/6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

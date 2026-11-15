@@ -388,6 +388,6 @@
 	(model "${KIPRJMOD}/libraries/3dmodels/Ratatouii.3dshapes/SFH_4545.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(rotate (xyz -90 0 0))
 	)
 )
