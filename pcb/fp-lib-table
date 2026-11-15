@@ -9,4 +9,5 @@
 	(lib (name "SFH_4545") (type "KiCad") (uri "${KIPRJMOD}/libraries/SFH_4545") (options "") (descr "SFH 4545 footprint"))
 	(lib (name "TEENSY_4.0") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEENSY_4.0") (options "") (descr "Teensy 4.0 footprints"))
 	(lib (name "TEFT4300") (type "KiCad") (uri "${KIPRJMOD}/libraries/TEFT4300") (options "") (descr "TEFT4300 footprint"))
+	(lib (name "EG1215AA") (type "KiCad") (uri "${KIPRJMOD}/libraries/EG1215AA") (options "") (descr ""))
 )

@@ -158,7 +158,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.5,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
@@ -674,7 +674,7 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "TP1-4,LS1,L1,J1_MotorEncoder1,J2_MotorEncoder1,R1-23,R32-33,BZ1,H1-7,7.4_LiPo1,#FLG1,SW1-2,U1-4,C1-11,Q1-10,A1,#PWR1-64,D1-12",
+    "used_designators": "S1,TP1-4,LS1,L1,J1_MotorEncoder1,J2_MotorEncoder1,R1-23,R32-33,BZ1,H1-7,7.4_LiPo1,#FLG1,SW1-2,U1-4,C1-11,Q1-10,A1,#PWR1-64,D1-12",
     "variants": []
   },
   "sheets": [
