@@ -170,7 +170,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -674,7 +674,7 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "TP1-4,LS1,L1,J1_MotorEncoder1,J2_MotorEncoder1,R1-23,R32-33,BZ1,H1-7,7.4_LiPo1,#FLG1,SW1-2,U1-4,C1-10,Q1-10,A1,#PWR1-59,D1-10",
+    "used_designators": "TP1-4,LS1,L1,J1_MotorEncoder1,J2_MotorEncoder1,R1-23,R32-33,BZ1,H1-7,7.4_LiPo1,#FLG1,SW1-2,U1-4,C1-11,Q1-10,A1,#PWR1-60,D1-10",
     "variants": []
   },
   "sheets": [

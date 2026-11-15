@@ -1833,9 +1833,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "R10: current limiting\n"
+	(text "R12: current limiting\n!! Needs to be 0805"
 		(exclude_from_sim no)
-		(at 71.755 65.151 0)
+		(at 67.31 54.864 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 		)
 		(uuid "888ee802-6009-4ad3-9fac-8ff14212618d")
 	)
-	(text "R11: Gate turn-on resistor"
+	(text "R13: Gate turn-on resistor"
 		(exclude_from_sim no)
 		(at 55.245 68.453 0)
 		(effects
@@ -2037,7 +2037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.344 67.056 90)
 			(hide yes)
 			(show_name no)
