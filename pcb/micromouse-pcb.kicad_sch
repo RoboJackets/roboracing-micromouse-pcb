@@ -7534,7 +7534,7 @@
 			)
 		)
 	)
-	(global_label "Motor R Power 2"
+	(global_label "Motor L Power 2"
 		(shape input)
 		(at 285.75 148.59 0)
 		(fields_autoplaced yes)
@@ -7546,7 +7546,7 @@
 		)
 		(uuid "1d3def1e-7b3f-40d5-b1a8-4eab4d21c57d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.0031 148.59 0)
+			(at 304.7612 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,7 +7582,7 @@
 			)
 		)
 	)
-	(global_label "Motor L Logic 1"
+	(global_label "Motor R Logic 1"
 		(shape input)
 		(at 260.35 151.13 180)
 		(fields_autoplaced yes)
@@ -7594,7 +7594,7 @@
 		)
 		(uuid "24756d47-e1da-41ad-af2c-5c582ff9fec9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.9436 151.13 0)
+			(at 241.7017 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,7 +7630,7 @@
 			)
 		)
 	)
-	(global_label "Motor L Logic 2"
+	(global_label "Motor R Logic 2"
 		(shape input)
 		(at 260.35 153.67 180)
 		(fields_autoplaced yes)
@@ -7642,7 +7642,7 @@
 		)
 		(uuid "2f58a461-23db-45eb-9fe2-1ef6274c4a1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.9436 153.67 0)
+			(at 241.7017 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7774,7 @@
 			)
 		)
 	)
-	(global_label "Motor R Logic 1"
+	(global_label "Motor L Logic 1"
 		(shape input)
 		(at 260.35 146.05 180)
 		(fields_autoplaced yes)
@@ -7786,7 +7786,7 @@
 		)
 		(uuid "48465b90-ec95-4c4b-882e-96ced422214c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.7017 146.05 0)
+			(at 241.9436 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7895,7 @@
 			)
 		)
 	)
-	(global_label "Motor L Power 1"
+	(global_label "Motor R Power 1"
 		(shape input)
 		(at 285.75 151.13 0)
 		(fields_autoplaced yes)
@@ -7907,7 +7907,7 @@
 		)
 		(uuid "5eec7c99-16aa-4b81-87e6-e108a5f3c254")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.7612 151.13 0)
+			(at 305.0031 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8135,7 +8135,7 @@
 			)
 		)
 	)
-	(global_label "Motor R Logic 2"
+	(global_label "Motor L Logic 2"
 		(shape input)
 		(at 193.04 62.23 0)
 		(fields_autoplaced yes)
@@ -8147,7 +8147,7 @@
 		)
 		(uuid "85fdada6-3cfe-41c4-a873-fb6155e544ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.6883 62.23 0)
+			(at 211.4464 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8255,7 +8255,7 @@
 			)
 		)
 	)
-	(global_label "Motor L Logic 1"
+	(global_label "Motor R Logic 2"
 		(shape input)
 		(at 193.04 59.69 0)
 		(fields_autoplaced yes)
@@ -8267,7 +8267,7 @@
 		)
 		(uuid "99702bac-faa8-47dc-b2e8-a6d55256d3d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4464 59.69 0)
+			(at 211.6883 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8423,7 +8423,7 @@
 			)
 		)
 	)
-	(global_label "Motor L Power 2"
+	(global_label "Motor R Power 2"
 		(shape input)
 		(at 285.75 153.67 0)
 		(fields_autoplaced yes)
@@ -8435,7 +8435,7 @@
 		)
 		(uuid "c1befd35-ed16-4b9f-b4aa-49bfa622a3b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.7612 153.67 0)
+			(at 305.0031 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,7 +8471,7 @@
 			)
 		)
 	)
-	(global_label "Motor L Logic 2"
+	(global_label "Motor R Logic 1"
 		(shape input)
 		(at 193.04 57.15 0)
 		(fields_autoplaced yes)
@@ -8483,7 +8483,7 @@
 		)
 		(uuid "cc2324bc-8df2-4c9d-a295-9eeddcba3865")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4464 57.15 0)
+			(at 211.6883 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8519,7 +8519,7 @@
 			)
 		)
 	)
-	(global_label "Motor R Logic 1"
+	(global_label "Motor L Logic 1"
 		(shape input)
 		(at 193.04 64.77 0)
 		(fields_autoplaced yes)
@@ -8531,7 +8531,7 @@
 		)
 		(uuid "d0d8231d-1a87-4b92-bd26-1dcffacdf57b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.6883 64.77 0)
+			(at 211.4464 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,7 +8664,7 @@
 			)
 		)
 	)
-	(global_label "Motor R Power 1"
+	(global_label "Motor L Power 1"
 		(shape input)
 		(at 285.75 146.05 0)
 		(fields_autoplaced yes)
@@ -8676,7 +8676,7 @@
 		)
 		(uuid "f4a18e29-4ac1-4dc4-a06d-f405e79b9d95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.0031 146.05 0)
+			(at 304.7612 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8688,7 +8688,7 @@
 			)
 		)
 	)
-	(global_label "Motor R Logic 2"
+	(global_label "Motor L Logic 2"
 		(shape input)
 		(at 260.35 148.59 180)
 		(fields_autoplaced yes)
@@ -8700,7 +8700,7 @@
 		)
 		(uuid "f59d6fb5-48a6-4b75-8cac-bcaea8ba989b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.7017 148.59 0)
+			(at 241.9436 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
