@@ -678,7 +678,7 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-7,#PWR9-13,#PWR15,#PWR17-37,A1,C2-3,C8-10,D1-5,H7,J1-2,Motor_One1,NT1,Q2-11,R1,R3-4,R6-17,SW6,TP6,U1,U4",
+    "used_designators": "#FLG1-2,#PWR1-7,#PWR9-13,#PWR15,#PWR17-37,A1,C2-3,C8-10,D1-5,H7,IN_SIDE1,J1-2,Motor_One1,Motor_Two1,NT1,OUT_SIDE1,Q2-11,R1,R3-4,R6-17,SW6,TP6,U1,U4",
     "variants": []
   },
   "sheets": [
