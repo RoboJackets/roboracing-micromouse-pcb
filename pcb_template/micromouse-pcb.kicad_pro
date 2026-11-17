@@ -256,7 +256,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V0.3"
+      "sch_revision": "V1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -687,8 +687,20 @@
       "micromouse-pcb"
     ],
     [
-      "5b62cd47-1407-4acf-b57e-2ef9e77355b1",
-      "IR sensor"
+      "e3ee8be2-0136-4490-8c5d-3728c3d90605",
+      "IR Sensor 1"
+    ],
+    [
+      "b29d6966-c029-436f-8ec6-b6ed59694914",
+      "IR Sensor 2"
+    ],
+    [
+      "85af73a2-07dc-4706-83bf-88dbda1d38ae",
+      "IR Sensor 3"
+    ],
+    [
+      "37de3d61-9799-42d4-b9e9-1f80d0e32e4f",
+      "IR Sensor 4"
     ]
   ],
   "text_variables": {},

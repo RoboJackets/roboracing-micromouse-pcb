@@ -2091,7 +2091,7 @@
 		)
 		(uuid "ff780233-b350-4774-81b4-b638c38988d2")
 	)
-	(label "Emitter"
+	(label "Emitter2"
 		(at 149.86 72.39 180)
 		(effects
 			(font
@@ -2101,7 +2101,7 @@
 		)
 		(uuid "3cf2852b-2ed6-4a83-9ab1-ac5d7af080a5")
 	)
-	(label "Emitter"
+	(label "Emitter4"
 		(at 149.86 140.97 180)
 		(effects
 			(font
@@ -2111,7 +2111,7 @@
 		)
 		(uuid "4936f6c6-404b-419f-bf4c-8d8715558fe7")
 	)
-	(label "Emitter"
+	(label "Emitter1"
 		(at 66.04 72.39 180)
 		(effects
 			(font
@@ -2121,7 +2121,7 @@
 		)
 		(uuid "58688839-1d46-4733-8794-0d07a602333a")
 	)
-	(label "Emitter"
+	(label "Emitter3"
 		(at 66.04 142.24 180)
 		(effects
 			(font
@@ -2131,7 +2131,7 @@
 		)
 		(uuid "a610e59e-ecfe-4312-8843-7b0965adca9e")
 	)
-	(label "Receiver"
+	(label "Receiver3"
 		(at 120.65 132.08 0)
 		(effects
 			(font
@@ -2141,7 +2141,7 @@
 		)
 		(uuid "cb4cd144-4d68-4fc2-9158-4058e09d8ed9")
 	)
-	(label "Receiver"
+	(label "Receiver4"
 		(at 204.47 130.81 0)
 		(effects
 			(font
@@ -2151,7 +2151,7 @@
 		)
 		(uuid "d62fa3fc-cc24-419f-a68c-a2c568357158")
 	)
-	(label "Receiver"
+	(label "Receiver2"
 		(at 204.47 62.23 0)
 		(effects
 			(font
@@ -2161,7 +2161,7 @@
 		)
 		(uuid "d65cfce3-6cdb-4f63-9877-ae71b24225b2")
 	)
-	(label "Receiver"
+	(label "Receiver1"
 		(at 120.65 62.23 0)
 		(effects
 			(font
