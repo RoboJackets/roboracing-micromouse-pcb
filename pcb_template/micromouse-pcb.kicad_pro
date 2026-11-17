@@ -256,7 +256,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V0"
+      "sch_revision": "V0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -637,7 +637,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -678,13 +678,17 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "#FLG2,#PWR1-2,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,A1,C8-10,D2,H7,Q2-5,R1,R12-13,SW6,TP6,U4",
+    "used_designators": "#FLG1-2,#PWR1-7,#PWR9-13,#PWR15,#PWR17-37,A1,C2-3,C8-10,D1-5,H7,J1-2,Motor_One1,NT1,Q2-11,R1,R3-4,R6-17,SW6,TP6,U1,U4",
     "variants": []
   },
   "sheets": [
     [
       "6bab3514-b9e6-4652-bd2e-edc57bdbde3d",
       "micromouse-pcb"
+    ],
+    [
+      "5b62cd47-1407-4acf-b57e-2ef9e77355b1",
+      "IR sensor"
     ]
   ],
   "text_variables": {},
