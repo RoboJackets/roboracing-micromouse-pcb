@@ -655,7 +655,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "IRModule1.kicad_sch",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -674,13 +674,29 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "H7,SW6,#FLG2,R1,R12-13,Q2-5,C2-3,C8-10,D1-2,#PWR1-5,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,TP6,U1-2,U4,A1",
+    "used_designators": "H7,SW6,#FLG2,R1,R3-4,R6-14,Q2-9,C2-3,C8-10,D1-4,#PWR1-7,#PWR9-13,#PWR15,#PWR17-25,#PWR29-32,TP6,U1-2,U4,A1",
     "variants": []
   },
   "sheets": [
     [
       "6bab3514-b9e6-4652-bd2e-edc57bdbde3d",
       "micromouse-pcb"
+    ],
+    [
+      "69dc30ec-e85a-495a-abc1-41b838b494d1",
+      "IR Module"
+    ],
+    [
+      "1c234702-c985-4a8f-b294-001e255d2960",
+      "IR Module1"
+    ],
+    [
+      "1e8767ff-3da5-457a-b72c-3410f8e9eaef",
+      "IR Module2"
+    ],
+    [
+      "21a0f7fe-7b80-474d-ab0d-04574df23073",
+      "IR Module3"
     ]
   ],
   "text_variables": {},
