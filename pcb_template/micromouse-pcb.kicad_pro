@@ -480,7 +480,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -633,7 +633,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -674,13 +674,29 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "H7,#FLG2,Q2-5,C8-10,D2,#PWR10,#PWR13,#PWR15,#PWR18-20,#PWR25,#PWR29-32,R1,R12-13,SW6,TP6,U4",
+    "used_designators": "H1,H7,SW1-2,SW6,#FLG2,R1-20,Q1-9,C1-3,C8-10,D1-6,#PWR1-7,#PWR9-44,TP1-4,TP6,U1-2,U4,A1,J1-6",
     "variants": []
   },
   "sheets": [
     [
       "6bab3514-b9e6-4652-bd2e-edc57bdbde3d",
       "micromouse-pcb"
+    ],
+    [
+      "28c5cceb-3808-4dcf-a1c7-81519a217fc8",
+      "IR sheet1"
+    ],
+    [
+      "89f0e007-9db3-4f34-a0f1-87c3ebc3da29",
+      "IR sheet2"
+    ],
+    [
+      "b18c8385-dce4-4054-9d4c-a493d3d54f1c",
+      "IR sheet3"
+    ],
+    [
+      "a50294f5-d25f-4d7b-a480-0b04bd7d924c",
+      "IR sheet4"
     ]
   ],
   "text_variables": {},
