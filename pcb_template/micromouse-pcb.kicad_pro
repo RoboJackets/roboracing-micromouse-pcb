@@ -678,17 +678,13 @@
         "uuid": "6bab3514-b9e6-4652-bd2e-edc57bdbde3d"
       }
     ],
-    "used_designators": "#FLG2,#PWR1-7,#PWR9-13,#PWR15,#PWR17-25,#PWR29-32,A1,C2-3,C8-10,D1-5,H7,J1-4,Q2-9,R1,R3-4,R6-15,SW6,TP6,U1-2,U4",
+    "used_designators": "#FLG2,#PWR1-7,#PWR9-13,#PWR15,#PWR17-32,A1,C2-3,C8-10,D1-5,H7,J1-4,Q2-9,R1,R3-4,R6-15,SW6,TP6,U1-2,U4",
     "variants": []
   },
   "sheets": [
     [
       "6bab3514-b9e6-4652-bd2e-edc57bdbde3d",
       "micromouse-pcb"
-    ],
-    [
-      "ed54c58a-fa38-457c-b1bb-287977c8082f",
-      "Emitter_Receiver Pairs"
     ]
   ],
   "text_variables": {},
